@@ -7,46 +7,77 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+        <!-- Header -->
     <header>
-        <h1>AprendeOnline</h1>
-        <p>Tu plataforma para aprender nuevas habilidades, ¡al ritmo que desees!</p>
+        <nav>
+            <button class="menu-btn">...</button>
+            <div class="app-info">
+                <img src="icono-app.png" alt="App Icon" class="app-icon">
+                <h1>Prisma3D Learning Hub</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#categorias">Categorías</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <select id="language-select">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="pt">Português</option>
+            </select>
+        </nav>
+        
+
+        
+        <p class="intro">Bienvenido al sitio web de aprendizaje sobre moldeado y animación 3D. Aquí podrás aprender desde lo más básico hasta técnicas avanzadas para crear modelos y animaciones en 3D.</p>
     </header>
 
-    <nav class="nav">
-        <a href="#">Inicio</a>
-        <a href="#">Cursos</a>
-        <a href="#">Certificados</a>
-        <a href="#">Comunidad</a>
-        <a href="#">Iniciar Sesión</a>
-    </nav>
+    <div>
 
-    <section class="hero">
-        <h2>¡Descubre tus nuevos cursos favoritos!</h2>
-        <p>Accede a miles de cursos en diferentes áreas, aprende de los mejores expertos y mejora tus habilidades.</p>
-        <a href="#" class="button">Explora Cursos</a>
+        <h1 id="welcome-text">Welcome to the 3D learning website</h1>
+    <section>
+        <h2 id="categories-text">Categories</h2>
     </section>
 
-    <section class="features">
-        <div class="feature">
-            <img src="https://via.placeholder.com/80" alt="Cursos">
-            <h3>Cursos de Alta Calidad</h3>
-            <p>Aprende con materiales actualizados, diseñados por expertos de la industria.</p>
-        </div>
-        <div class="feature">
-            <img src="https://via.placeholder.com/80" alt="Certificados">
-            <h3>Certificados Reconocidos</h3>
-            <p>Obtén certificados al completar cursos y demuéstrales a otros tus nuevas habilidades.</p>
-        </div>
-        <div class="feature">
-            <img src="https://via.placeholder.com/80" alt="Comunidad">
-            <h3>Comunidad Global</h3>
-            <p>Conéctate con otros estudiantes y comparte tus conocimientos con personas de todo el mundo.</p>
+    <footer id="footer-text">All rights reserved.</footer>
+
+    <script src="script.js"></script>
+    </div>
+
+
+    <!-- Categorías -->
+    <section class="categories">
+        <h2>Categorías</h2>
+        <ul>
+            <li><a href="#">Moldeado</a></li>
+            <li><a href="#">Rigging</a></li>
+            <li><a href="#">Animación</a></li>
+            <li><a href="#">Materiales</a></li>
+        </ul>
+    </section>
+
+    <!-- Galería -->
+    <section class="gallery">
+        <h2>Galería de Lecciones</h2>
+        <div class="gallery-items">
+            <div class="gallery-item">
+                <img src="leccion1.jpg" alt="Lección 1">
+            </div>
+            <div class="gallery-item">
+                <img src="leccion2.jpg" alt="Lección 2">
+            </div>
+            <div class="gallery-item">
+                <img src="leccion3.jpg" alt="Lección 3">
+            </div>
+            <!-- Agregar más divs de imágenes -->
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 AprendeOnline - Todos los derechos reservados</p>
+        <p>&copy; 2024 Mi App 3D. Todos los derechos reservados.</p>
+        <p>Para más información, contáctanos en contacto@miapp3d.com.</p>
+        <p>Redes sociales: <a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Twitter</a></p>
     </footer>
 
 </body>
